@@ -1,8 +1,30 @@
 body, html {
-	height: 100%;
-	font-family: 'Raleway', sans-serif;
+	height:100%;
+	color:#474747 ;
+	font-family:'Raleway', sans-serif;
 }
-h1, h2, h3, h4 {
-	font-family: 'Josefin Sans', sans-serif;
-	color: red;
+h6 {
+	font-family:'Josefin Sans', sans-serif;
+	color:#007bff;
+}
+h3{
+	font-family:'Josefin Sans', sans-serif;
+	color:#055ab5;
+
+}
+small{
+	color:#1e4772;
+}
+img{
+		max-width:25%;
+    height:auto;
+}
+.container{
+	padding:10px,50px;
+}
+#more1{
+	display:none;
+}
+#more2{
+	display: none;
 }
