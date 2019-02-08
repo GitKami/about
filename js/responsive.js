@@ -1,3 +1,4 @@
+/*Read more buttons*/
 window.onload = function() {
   var dots1 = document.getElementById("dots1"),
 			dots2 = document.getElementById("dots2");
