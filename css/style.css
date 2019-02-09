@@ -5,13 +5,16 @@ body, html {
 }
 h6 {
 	font-family:'Josefin Sans', sans-serif;
-	color:#007bff;
+	color:green;
+}
+h5{
+	color:red;
 }
 h3{
 	font-family:'Josefin Sans', sans-serif;
-	color:#055ab5;
-
+	color:blue;
 }
+
 small{
 	color:#1e4772;
 
@@ -21,7 +24,12 @@ img{
     height:auto;
 }
 .container{
-	padding:10px,50px;
+	background-color: gray;
+	padding:20px 40px;
+}
+.container-fluid{
+	margin:20px;
+	background-color: yellow;
 }
 #more1{
 	display:none;
