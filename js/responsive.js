@@ -37,5 +37,23 @@ window.onload = function() {
 		}
 	};
 };
+/* Listen for clicks in #openNav and #closeNav */
+document.addEventListener('click', function (event) {
+	if (event.target.matches('#openNav')){
+		var intF = window.innerWidth;    
+		document.getElementById("about").style.width = "300px";    
+		document.getElementById("main").style.marginLeft = "300px";
+		if(intF< 450) { document.getElementById("summary").style.display = "none";}    
+ 
+	}
+	if (event.target.matches('#closeNav')){
+		document.getElementById("summary").removeAttribute("style");    
+		document.getElementById("about").style.width = "0";    
+		document.getElementById("main").style.marginLeft= "0";    
+
+	}
+	// Don't follow the link
+	event.preventDefault();
+}, false);
 
 
