@@ -1,0 +1,20 @@
+/* Skill */                                                                                                      
+#skills{                                                                                                         
+  background:  url(https://i.gifer.com/H4sc.gif) no-repeat center fixed;                                         
+  background-size: cover;                                                                                        
+} 
+#skills .content{
+	background-color:rgba(10, 3, 9,0.5);
+	padding: 10px;
+	color: #c8c8c8
+}
+#skills ul{
+	list-style-type: none;
+}
+.progress{
+	background-color: #232836;
+	border: solid #c8c8c8 1px;
+}
+.progress-bar{
+	background-color: #c8c8c8;
+}
