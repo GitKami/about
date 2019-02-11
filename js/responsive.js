@@ -1,4 +1,4 @@
-/*Read more buttons*/
+/*Read more buttons
 window.onload = function() {
   var dots1 = document.getElementById("dots1"),
 			dots2 = document.getElementById("dots2");
@@ -37,6 +37,7 @@ window.onload = function() {
 		}
 	};
 };
+*/
 /* Listen for clicks in #openNav and #closeNav */
 document.addEventListener('click', function (event) {
 	if (event.target.matches('#openNav')){
