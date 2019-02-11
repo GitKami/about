@@ -27,7 +27,9 @@
 		<section id="main">
 			<header id="welcome" class="page container-fluid">
 				<div class="row h-100 justify-content-center align-items-center">
-					<h2>Welcome</h2>
+					<div style="text-align:center" class="content container">
+						<h2>Welcome</h2>
+					</div>
 					<div class="bbutton">
 						<span class="fa fa-angle-double-down fa-2x"></span>
 					</div>
@@ -37,37 +39,41 @@
 			<!--Executive -->
 			<article id="executive" class="page container-fluid">
 				<nav id="about" class="sidebar">
-					<a href="javascript:void(0)" class="fa fa-angle-double-left closebtn" onclick="closeNav()"></a>
-					<div id="profile">
-						<img class="rounded"style="width:100%" src="img/profile.png" alt="profile picture">
+					<a href="javascript:void(0)" class="fa fa-angle-double-left  fa-2x closebtn" onclick="closeNav()"></a>
+					<div style="margin:0 auto;" id="profile">
+						<img class="rounded" style="width:100%" src="img/profile.png" alt="profile picture">
 					</div>
-					<span class="fa fa-briefcase">
+					<div>
+					<span>
+						<span class="fancy">	
 						NOW FOR HIRE
+						</span>
 					</span>
-								
-					<span class="fa fa-map-marker">
-						Pasadena, MD
+					<span>
+							<i class="fa fa-map-marker"></i>
+							Pasadena, MD
 					</span>
-					<span class="fa fa-envelope">
+					<span>
+						<i class="fa fa-envelope"></i>
 						<a href="mailto:kmd1156@wmich.edu">kmd1156@wmich.edu</a>
 					</span>
-						
-					<span class="fa fa-github">
+					<span>
+						<i class="fa fa-github"></i>
 						<a href="https://github.com/GitKami">GitKami</a>
 					</span>
 						
-						
+					</div>
 				</nav>
 					<div class="row h-100 justify-content-center align-items-center">
-							<div style="background-color:gray" class="sbutton">
-								<button class="openbtn" onclick="openNav()">
-									M E
-								</button>
-							</div>
-						<div id="summary" class="container">
+						<div style="background-color:gray" class="sbutton">
+							<button class="openbtn" onclick="openNav()">
+								M E
+							</button>
+						</div>
+						<div id="summary" class="content container">
 							<p>
-							<h3>Hello!</h3>
-								Graduate with a Bachelors in Computers Science, interested in web technologies, simple and 
+							<h3>I am...</h3>
+								A Bachelors in Computers Science, interested in web technologies, simple and 
 								beautiful user interfaces and cyber security. Back and front-end development experience, 
 								as well as experience with vulnerabilities found in PHP, PHP+SQL, and JS.
 								<br>Dedicated, enthusiastic, team player, open to new learning experiences and holder of 
@@ -79,6 +85,26 @@
 						</div>
 					</div>
 			</article>
+			<!-- Skills -->	
+			<article id="skills" class="page container-fluid">
+				<div class="row h-100 justify-content-center align-items-center">
+					<div class="container content">
+							<p>
+							<h3>I am...</h3>
+								A Bachelors in Computers Science, interested in web technologies, simple and 
+								beautiful user interfaces and cyber security. Back and front-end development experience, 
+								as well as experience with vulnerabilities found in PHP, PHP+SQL, and JS.
+								<br>Dedicated, enthusiastic, team player, open to new learning experiences and holder of 
+								great customer service and interpersonal skills.	
+							</p>
+						</div>
+						<div class="bbutton">
+							<span class="fa fa-angle-double-down fa-2x"></span>
+						</div>
+					</div>
+			</article>
+
+
 		</section>
 		<script>
 function openNav() {
