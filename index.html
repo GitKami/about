@@ -18,7 +18,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 		<!-- Custom css -->
-		<!--<link rel= "stylesheet" type="text/css" href="css/style.css"> Terrible colors for now so I can see what I'm doing-->
+		<link rel= "stylesheet" type="text/css" href="css/style.css">
 		<!-- Icons -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
@@ -26,14 +26,28 @@
 	<body>
 		<section class="main">
 			<header>
+				<div id="welcome" class="container-fluid h-100">
+					<div class="container d-flex justify-content-center h-100">
+						<div class="row align-self-center">
+							<div class="col">
+								<h2>Welcome</h2>
+							</div>
+						</div>
+						<div class="row align-self-center">
+							<div class="col">
+								<h2>Welcome</h2>
+							</div>
+						</div>
+					</div>	
+				</div>
 			</header>
 			<nav>
 			</nav>
 			<!-- About -->
 			<article id="about" class="container-fluid">
-				<div class="container">
+				<div class=" container">
 					<div class="row align-items-center row-eq-height">
-						<div id="personal" class="col-sm">
+						<div id="personal" class="col-sm-4">
 							<img class="rounded-circle" id="profile" src="img/profile.png" alt="profile picture">
 							<p>
 							<span class="fa fa-map-marker">
@@ -79,14 +93,14 @@
 			<!--Built -->
 			<article id="build">
 				<div class="container-fluid">
-					<div class="container">
+					<div class=" container">
 						<div id="accordion">
 							<div class="card">
 								<div class="card-header" id="headingOne">
 									<h5 class="mb-0">
 										Character Build.
-										<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-											<span class="fa fa-angle-double-down right"></span>
+										<button class="fa btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+											<span class="fa fa-angle-double-down fa-2x"></span>
 										</button>
 									</h5>
 								</div><!--End of header-->
@@ -170,17 +184,16 @@
 						</div><!--End of id-->
 					</div><!--End of container-->
 				</div><!--End of Fluid-->
-			</article>
-			<!-- Education -->
-			<article id="edu" class="container-fluid">
-				<div class="container">
+
+			<!-- Education -->	
+				<div id="edu" class=" container">
 					<div id="accordion2">
 						<div class="card">
 							<div class="card-header" id="headingTwo">
 								<h5 class="mb-0">
 									Unlocked achievement
-									<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-										<span id="lock" class="fa fa-lock right"></span>
+									<button class="fa btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										<span id="lock" class="fa fa-lock fa-2x"></span>
 									</button>
 								</h5>
 							</div><!--End of header-->
@@ -214,7 +227,7 @@
 
 			<!-- Experience -->
 			<article id="experience" class="container-fluid">
-				<div class="container">
+				<div class=" container">
 					<h3>Work Experience</h3>
 					<div class="row align-items-center row-eq-height">
 						<div class="col-sm-4">
@@ -232,13 +245,13 @@
 								<em>CS 5950: cybersecurity 1 credit lab.</em>
 								<ul>
 									<li>
-										Created lectures in cybersecurity covering web and binary exploits 
-										and other vulnerabilities. 
+										Created lectures and exercises in cybersecurity covering web and binary exploits 
+										and other vulnerabilities 
 									</li>
 									<li>
 										Inspired students to try <acronym title="Capture the Flag">CTFs</acronym> and improved 
 										our team (<a href="https://ctftime.org/team/3602">ECX Inc</a>) 
-										performance from place 1342 in 2017 to 521 in 2018. 
+										performance from place 1342 in 2017 to 521 in 2018
 									</li>
 								</ul>
 							</p>
@@ -261,10 +274,10 @@
 								College of Arts and Sciences (CAS).</em>
 							<ul>
 								<li>
-									Serviced a variety of operating systems including Linux, macOS and Windows.
+									Serviced a variety of operating systems including Linux, macOS and Windows
 								</li>
 								<li>
-									Administered different types of hardware including laptops and desktops.
+									Administered different types of hardware including laptops and desktops
 								</li>
 								<li>
 									Provided customers with troubleshooting assistance
@@ -287,8 +300,8 @@
 						<div class="col-sm">
 							<p>
 							Created documentation for insecure functions in C and C++. This included testing the system for 
-							Visualization and Analysis for C Code Security (VACCS), with objective of creating a tool that 
-							can help detect potential security vulnerabilities.
+							Visualization and Analysis for C Code Security (VACCS), with the objective of creating a
+							vulnerability tool.
 							</p>
 							</p>
 						</div>
@@ -297,32 +310,35 @@
 			</article>
 
 			<!-- Projects -->
-			<article id="projects" class="container-fluid">
-				<h3 class="container">Projects</h3>
-				<div id="recent" class="container">
-					<h5 class="container">Most Recent </h5>
-					<div class="container">
+			<article id="projects">
+				<div id="recent" class="container-fluid">
+					<h3 class="container">Projects</h3>
+					<div class=" container">
+						<h5>Retail site</h5>
 						<div class="row align-items-center row-eq-height">
-							<div class="col-sm-4">
-								<h6>
-									Bake Goods Site
-									<small>
-										<p>Based in Dominican Republic</p>
-									</small>
+							<div class="col-sm-4">	
+								<h6><a href="https://gitkami.github.io/website/aschley/"> Bakery and catering Website</a>
+									<small><br>Dec 21st — Present</small>
 								</h6>
-								Dec 21st — Present
+								<div class="iframe-cont">
+									<iframe id="iframe" src="https://gitkami.github.io/website/aschley/" allowfullscreen>
+										<p class="alert"> Your Browser does not support Iframes </p>
+									</iframe>
+								</div>
 							</div>
+							
 							<div class="col-sm">
 								<p>
-									Initially a static website, now expected to be a blog. Website/blog for promoting and 
-									selling baked goods. Soon to be hosted in a AWS SC2 instance as a static Wordpress Blog<span id="dots1">...</span>
+									Created and designed front end for a retail baking site using a mixture of manual design
+									backed by a content management system for simplified client use and hosted on 
+									<acronym title="Amazon Web Services">AWS<acronym><span id="dots1">...</span>
 								</p>
-								<button id="btn1">Read more</button>
+								<p><button id="btn1">Read more</button></p>
 								<span id="more1">
 									<div class="row align-items-center row-eq-height">
 										<div class="col-sm-4">
 											<h6>Technologies</h6>
-											<ul>
+											<ul class="tech">
 												<li>CSS + BootStrapt4</li>
 												<li>JQuery + JS</li>
 												<li>HTML5</li>
@@ -343,10 +359,10 @@
 											<small>Since the client would like a blog as well</small>
 											<ul>
 												<li>
-													AWS SC2 Static Wordpress Blog set-up. <small> Completed </small>
+													AWS SC2 Static Wordpress Blog set-up <small> Completed </small>
 												</li>
 												<li>
-													WordPress custom Template. <small> <acronym title="Work in Progress">WIP</acronym></small>
+													WordPress custom Template <small> <acronym title="Work in Progress">WIP</acronym></small>
 												</li>
 												<li>
 													Amazon Lambda to handle Contact form.
@@ -360,13 +376,12 @@
 					</div>
 				</div> <!--End recent-->
 
-				<div id="past" class="container">
-					<h5 class="container">Prior Relevant</h5>
-					<div class="container">
+				<div id="past" class="container-fluid">
+					<div class=" container">
+						<h5>Homework Management System</h5>
 						<div class="row align-items-center row-eq-height">
 							<div class="col-sm-4">
-								<h6>
-									Homework Submission System
+								<h6> For student and faculty use
 									<small>
 										<p><acronym title="Computer Science Department">CS Dept.</acronym>,<acronym title="Western Michigan University"> WMU</acronym></p>
 									</small>
@@ -375,17 +390,17 @@
 							</div>
 							<div class="col-sm">
 								<p>
-									Software created for submission, distribution and evaluation of programming assigments. 
-									The project developed under agile programming, is currently in use by 
-									<a href="https://wmich.edu/cs/directory/maccreery">Prof. MacCreery</a>
-									for his <acronym title="Computer Organization and Assembly Language">CS 2230</acronym> section<span id="dots2">...</span>
+								Policy compliant Rails application which provides a roles based web interface for CS student
+								homework submission and evaluation, in addition to automation features for commonly misused 
+								features of the git protocol. The project was developed under agile programming practices 
+								and remains in use by the CS Department<span id="dots2">...</span>
 								</p>
-								<button id="btn2">Read more</button>
+								<span style="width:100%" ><button id="btn2">Read more</button></span>
 								<span id="more2">
 									<div class="row align-items-center row-eq-height">
 										<div class="col-sm-4">
 											<h6>Technologies</h6>
-											<ul>
+											<ul class="tech">
 												<li>Bash</li>
 												<li>Python</li>
 												<li>Ruby on Rails</li>
@@ -396,16 +411,11 @@
 										</div>
 										<div class="col-sm">
 											<h6>Features</h6>
-											<ul>
+											<ul>		
 												<li>
-													Self-hosted git server. The university requires student work to be stored locally.
-													Additionally the students are able to submit, and pull homework, plus all the git features.
-												</li>
-
-												<li>
-													Ruby on Rails controller. Handles student registration, and 
-													<acronym title="Self hosted git server">gitolite</acronym> configuration, as well 
-													the opening and closing of assignments.
+													 Ruby on Rails controller which handles student registration,
+														<a href="http://gitolite.com/gitolite/index.html" >gitolite </a>
+													 configuration, as assignment management.  
 												</li> 
 												<li>
 													Bash scripts allow students to register to the class with minor user input.
@@ -420,17 +430,17 @@
 									</div>
 								</span>
 							</div>
-						</div>
-					</div>
+						</div> <!-- row end-->
+					</div><!--cont end-->
 				</div><!--End past-->
 
-				<div id="future" class="container">
-					<h5 class="container"> Future Projects</h5>
-					<div class="container">
+				<div id="future" class="container-fluid">
+					<div class=" container">
+						<h5> Future Projects</h5>
 						<div class="row align-items-center row-eq-height">
 							<div class="col-sm-4">
 								<h6>
-									Upcoming project.
+									Terminal Task manager with google
 									<small>
 										<p>Personal</p>
 									</small>

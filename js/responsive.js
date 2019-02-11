@@ -8,17 +8,20 @@ window.onload = function() {
 	
 	var btn1 = document.getElementById("btn1"),
 			btn2 = document.getElementById("btn2");
+	var ifm	 = document.getElementById("iframe");	
 
 
 	btn1.onclick= function(){
 		if(dots1.style.display === "none"){
+			ifm.style.display = "none";
 			dots1.style.display = "inline";
 			btn1.innerHTML = "Read more";
 			more1.style.display = "none";
 		} else {
+			ifm.style.display = "block";
 			dots1.style.display = "none";
 			btn1.innerHTML = "Read less";
-			more1.style.display = "inline";
+			more1.style.display = "block";
 		}
 	};
 	
@@ -30,7 +33,7 @@ window.onload = function() {
 		} else {
 			dots2.style.display = "none";
 			btn2.innerHTML = "Read less";
-			more2.style.display = "inline";
+			more2.style.display = "block";
 		}
 	};
 };
