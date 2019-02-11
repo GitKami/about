@@ -7,6 +7,7 @@ almost black: #01151a
 */
 @import "nav.css";
 @import "skills.css";
+@import "work.css";
 body, html,section {
 	height: 100%; 
 	color: #474747 ;
@@ -93,7 +94,9 @@ span.fancy{
 	.skills {
     background-attachment: scroll;
 	}
-
-
+	#slide{
+		padding: 5px;
+	}
 }
+
 

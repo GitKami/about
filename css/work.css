@@ -1,0 +1,29 @@
+#work{
+	background-color:#003a48;
+	color: #c8c8c8;
+}
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
+
+#slide {
+  width: 100%;
+  height: 100%;
+	margin-bottom:70px;
+  padding: 50px;
+}
+.carousel-indicators{
+	bottom: -50px;
+
+}
+#work h5{
+	color: #007792 ;
+	padding-top: 5px;
+	text-decoration:  overline;
+}
+#work a{
+	text-decoration:none;
+	color: #fff;
+}
