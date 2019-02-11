@@ -6,6 +6,7 @@ Royal #003a48 :
 almost black: #01151a
 */
 @import "nav.css";
+@import "skills.css";
 body, html,section {
 	height: 100%; 
 	color: #474747 ;
@@ -89,12 +90,10 @@ span.fancy{
 		margin-top:10%; 
 			}
 	.page{min-height:100%; height: auto};
+	.skills {
+    background-attachment: scroll;
+	}
 
 
 }
 
-/* Skill */
-#skill{
-	color: #b51b06;
-
-}
