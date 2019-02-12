@@ -5,11 +5,8 @@
 } 
 #skills .content{
 	background-color:rgba(10, 3, 9,0.5);
-	padding: 10px;
+	padding: 20px 10px;
 	color: #c8c8c8
-}
-#skills ul{
-	list-style-type: none;
 }
 .progress{
 	background-color: #232836;
