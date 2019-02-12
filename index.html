@@ -1,4 +1,5 @@
 <!-- Is not you, its me -->
+
 <!DOCTYPE html>
 <html lang="EN-US">
 	<head>		
@@ -8,7 +9,9 @@
 		<meta name="description" content="Resume for Katherine Rodriguez and personal site">
 		<meta name="developer" content="https://github.com/gitKami" />
 		<!-- Google fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Raleway|Josefin+Sans" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Raleway|Josefin+Sans" rel="stylesheet">
+		
+
 		<!-- Custom js -->
 		<script src= "js/responsive.js"></script>
 		<!-- BootStrap -->
@@ -30,7 +33,7 @@
 						<h2>Welcome</h2>
 					</div>
 					<div class="bbutton">
-						<span class="fa fa-angle-double-down fa-2x"></span>
+						<a id="j1" href="#executive" class="fa fa-angle-double-down fa-2x"></a>
 					</div>
 				</div>
 			</header>
@@ -54,7 +57,7 @@
 							</p>
 						</div>
 						<div class="bbutton">
-							<span class="fa fa-angle-double-down fa-2x"></span>
+							<a id="j2" href="#skills" class="fa fa-angle-double-down fa-2x"></a>
 						</div>
 					</div>
 					<nav id="about" class="sidebar">
@@ -149,7 +152,7 @@
 						</div><!--end of row 2-->
 					</div><!--content end-->
 					<div class="bbutton">
-						<span class="fa fa-angle-double-down fa-2x"></span>
+						<a id="j3" href="#work" class="fa fa-angle-double-down fa-2x"></a>
 					</div>
 				</div><!--main row -->
 			</article>
@@ -164,8 +167,12 @@
 									<li data-target="#slide" data-slide-to="0" class="active"></li>
 									<li data-target="#slide" data-slide-to="1"></li>
 									<li data-target="#slide" data-slide-to="2"></li>
+									<li data-target="#slide" data-slide-to="3"></li>
+									<li data-target="#slide" data-slide-to="4"></li>
+									<li data-target="#slide" data-slide-to="5"></li>
 								</ul>
 								<!-- The slideshow -->
+
 								<div class="carousel-inner">
 									<div class="carousel-item active">
 										<h5>Part Time Instructor</h5>
@@ -220,21 +227,100 @@
 											for C Code Security (VACCS), with the objective of creating a vulnerability tool. 
 										</p>
 									</div>
+									<div class="carousel-item">
+										<h1> P R O J E C T S</h1>
+									</div>
+									<div class="carousel-item">
+										<h5> Homework Management System</h5>
+											<small>
+												<br>CAS Dept., WMU
+											</small>
+											<p>Technologies:</p>
+											<div class="listo">
+											<ul class="techList">
+												<li>Bash</li>
+												<li>Python</li>
+												<li>Ruby on Rails</li>
+												<li>Postgresql</li>
+												<li>Git</li>
+												<li>NGINX</li>
+											</ul></div><p></p>
+											<p>
+												Policy compliant Rails application which provides a roles based web interface for
+												CS student homework submission and evaluation, in addition to automation features for
+												commonly misused features of the git protocol. The project was developed under
+												agile programming practices and remains in use by the CS Department.
+											</p>
+											<h6>Features</h6>
+											<ul>
+												<li>
+													 Ruby on Rails controller which handles student registration,
+														<a href="http://gitolite.com/gitolite/index.html" >gitolite </a>
+													 configuration, as assignment management.
+												</li>
+												<li>
+													Bash scripts allow students to register to the class with minor user input.
+												</li>
+												<li>
+													HTTPS NGINX configuration with a proxy to Puma. Allowing secure data transfer. No
+													sensitive information is ever stored in the server.
+												</li>
+											</ul>
+									</div>
+									<div class="carousel-item">	
+										<h5>Retail Site</h5>
+										<p> Technologies:</p>	<div>
+										<ul class="techList">
+											<li>CSS + BootStrap4</li>
+											<li>JS + JQuery</li>
+											<li>WordPress + PHP</li>
+										</ul></div>
+										<p>
+											Created and designed front end for a retail baking site using a 
+											mixture of manual design backed by a content management system for 
+											simplified client use and hosted on AWS.
+										</p>
+										<small>
+											<br><a href="https://gitkami.github.io/website/aschley/"> > Static Demo < </a>
+										</small>
+										<h6>Current Features</h6>
+										<small>Demo hosted in git</small>
+										<ul>
+											<li>
+												Single static: Welcome, About and Contact form
+											</li>
+											<li>
+												Responsive Design
+											</li>
+										</ul>
+										<h6>Working on:</h6>
+										<small>Since the client would like a blog as well</small>
+										<ul>
+											<li>
+												AWS SC2 Static Wordpress Blog set-up <small> Completed </small>
+											</li>
+											<li>
+												WordPress custom Template <small> <abbr title="Work in Progress">WIP</abbr></small>
+											</li>
+											<li>
+												Amazon Lambda to handle Contact form.
+											</li>
+										</ul>
+									</div>
 								</div>
 							</div>	
 						</div>
 						<!-- Left and right controls -->
-								<a class="carousel-control-prev" href="#slide" data-slide="prev">
-									<span class="carousel-control-prev-icon"></span>
-								</a>
-								<a class="carousel-control-next" href="#slide" data-slide="next">
-									<span class="carousel-control-next-icon"></span>
-								</a>
-					<div class="bbutton">
-						<span class="fa fa-angle-double-down fa-2x"></span>
-					</div>
+						<a class="carousel-control-prev" href="#slide" data-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						</a>
+						<a class="carousel-control-next" href="#slide" data-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						</a>
+						<div class="bbutton">
+							<a id="j4" href="#projects" class="fa fa-angle-double-down fa-2x"></a>						</div>
 					</div> <!-- main row -->
-			</article>
+			</article>			
 		</section>
 	</body>
 </html>

@@ -1,12 +1,12 @@
 /* Skill */                                                                                                      
 #skills{                                                                                                         
-  background:  url(https://i.gifer.com/H4sc.gif) no-repeat center fixed;                                         
+  background: url(https://i.gifer.com/H4sc.gif) no-repeat center fixed;                                         
   background-size: cover;                                                                                        
 } 
 #skills .content{
-	background-color:rgba(10, 3, 9,0.5);
+	background-color: rgba(10, 3, 9,0.5);
 	padding: 20px 10px;
-	color: #c8c8c8
+	color: #c8c8c8;
 }
 .progress{
 	background-color: #232836;
@@ -15,3 +15,11 @@
 .progress-bar{
 	background-color: #c8c8c8;
 }
+.techList{
+	list-style-type:square;
+	display: block;
+}
+.techList li{
+	display: inline;
+}
+

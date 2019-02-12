@@ -53,8 +53,28 @@ document.addEventListener('click', function (event) {
 		document.getElementById("main").style.marginLeft= "0";    
 
 	}
+	if (event.target.matches("#j1")){
+		document.querySelector('#executive').scrollIntoView({ 
+			behavior: 'smooth' 
+		});
+	}
+	if (event.target.matches("#j2")){
+		document.querySelector('#skills').scrollIntoView({ 
+			behavior: 'smooth' 
+		});
+	}
+	if (event.target.matches("#j3")){
+		document.querySelector('#work').scrollIntoView({ 
+			behavior: 'smooth' 
+		});
+	}
+	if (event.target.matches("#j4")){
+		document.querySelector('#projects').scrollIntoView({ 
+			behavior: 'smooth' 
+		});
+	}
+
 	// Don't follow the link
 	event.preventDefault();
 }, false);
-
 

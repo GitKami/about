@@ -1,16 +1,18 @@
 /* Colors:
-Red: #b51b06
-g/ray: #c8c8c81
-blue: #007792
-Royal #003a48 : 
-almost black: #01151a
+Red:					#b51b06
+Gray:					#c8c8c8
+Blue:					#007792
+Royal:				#003a48  
+almost black:	#01151a
 */
 @import "nav.css";
 @import "skills.css";
 @import "work.css";
+@import "projects.css";
 body, html,section {
+	scroll-behavior: smooth;
 	height: 100%; 
-	color: #474747 ;
+	color: #474747;
 	font-family: "Raleway", sans-serif;
 }
 h3 {
@@ -29,8 +31,19 @@ span.fancy{
 	bottom: 10px;
 	margin: 0 auto;
 }
+.bbutton a{
+	text-decoration: none;
+	color: #c8c8c8;
+}
+.bbutton a:hover{
+	color: #b51b06;
+	transition: color 1s;
+}
+#welcome .bbutton a:hover{
+	color: #01151a;
+	transition: color 1s;
+}
 .sbutton{
-
 	position: absolute;
 	margin: auto;
 	display: inline;
