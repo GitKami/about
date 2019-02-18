@@ -29,6 +29,11 @@ document.addEventListener("click", function (event) {
 		});
 	}
 	if (event.target.matches("#j4")){
+		document.querySelector("#projects").scrollIntoView({ 
+			behavior: "smooth" 
+		});
+	}
+	if (event.target.matches("#j5")){
 		document.querySelector("#executive").scrollIntoView({ 
 			behavior: "smooth" 
 		});
